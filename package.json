@@ -1,0 +1,17 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/may-h/typechain.git",
+  "author": "may",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.7"
+  },
+  "dependencies": {
+    "typescript": "^3.9.3"
+  }
+}
